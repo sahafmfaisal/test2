@@ -198,8 +198,7 @@ footer {
     justify-content: space-between;
     align-items: flex-start;
     max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+    margin:0
 }
 
 .footer-section {

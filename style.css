@@ -55,31 +55,30 @@ nav {
 }
 
 .contact-button {
-    font-family: "DM Sans";
+    font-family: "DM Sans", sans-serif;
     color: white;
     border: none;
     display: flex;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding: 8px 24px;
     background: linear-gradient(225deg, #6FCFFF 0%, #1A05FF 100%);
     text-decoration: none;
     border-radius: 6px;
     justify-content: center;
     align-items: center;
     cursor: pointer;
-    font-size: 100%;
+    font-size: 16px;
     margin: 0;
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .contact-button:hover {
     font-size: 17px;
-    background:linear-gradient(225deg, #1A05FF 0%, #6FCFFF 100%);
+    background: linear-gradient(225deg, #1A05FF 0%, #6FCFFF 100%);
     transform: scale(1.01);
     opacity: 0.9;
+    color: white;
 }
+
 .service {
     justify-content: center;
     align-items: center;

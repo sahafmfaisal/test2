@@ -54,6 +54,10 @@ nav {
     width: 50%;
 }
 
+.span a:hover {
+    color: #007bff;
+}
+
 .contact-button {
     font-family: "DM Sans", sans-serif;
     color: white;

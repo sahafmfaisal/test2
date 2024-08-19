@@ -55,13 +55,15 @@ nav {
 }
 
 .contact-button {
+    font-family: "DM Sans";
+    color: white;
+    border: none;
     display: flex;
     padding-top: 8px;
     padding-bottom: 8px;
     padding-left: 24px;
     padding-right: 24px;
     background: linear-gradient(225deg, #6FCFFF 0%, #1A05FF 100%);
-    color: #ffffff;
     text-decoration: none;
     border-radius: 6px;
     justify-content: center;
@@ -188,32 +190,49 @@ a:-webkit-any-link {
 
 footer {
     background-color: #f8f9fa;
-    padding: 20px 0;
-    text-align: center;
+    padding: 0px;
     color: #6c757d;
+    width: 100%;
+    border-radius: 10px;
+    margin-top: 100px;
 }
 
 .footer-container {
     display: flex;
     justify-content: space-between;
-    align-items: centre;
     max-width: 1200px;
-    margin:0
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
 }
 
 .footer-section {
     flex: 1;
+    text-align: center;
 }
 
 .logo-section {
-    text-align: left;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100%;
 }
 
 .footer-logo {
-    max-width: 150px;
+    max-height: 50px;
+    padding-top: 20px;
+
 }
 
-.links-section h4, .contact-section h4 {
+.contact-section h4{
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #000;
+    text-align: right;
+}
+
+.links-section h4 {
     font-weight: bold;
     margin-bottom: 10px;
     color: #000;
@@ -241,6 +260,7 @@ footer {
 .contact-section address {
     font-style: normal;
     line-height: 1.6;
+    text-align: right;
 }
 
 .footer-bottom {
@@ -248,8 +268,10 @@ footer {
     padding: 10px 0;
     font-size: 14px;
     color: #6c757d;
+    text-align: center;
 }
 
 .footer-bottom p {
     margin: 0;
 }
+

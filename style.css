@@ -196,7 +196,7 @@ footer {
 .footer-container {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: centre;
     max-width: 1200px;
     margin:0
 }
